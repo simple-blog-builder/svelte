@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { SBBCoreBlogEntry } from '../../../../core/src/index.ts';
+	// import { SBBCoreBlogEntry } from '../../../../core/src/index.ts';
 	// export let blog: SBBCoreBlogEntry;
 </script>
 
