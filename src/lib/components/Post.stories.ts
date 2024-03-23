@@ -5,7 +5,6 @@ import Post from './Post.svelte';
 const meta = {
 	title: 'simple-blog-builder/Post',
 	// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-	//@ts-expect-error
 	component: Post,
 	tags: ['autodocs'],
 	argTypes: {
@@ -26,4 +25,3 @@ export const Main: Story = {
 		// blog: true,
 	}
 };
-

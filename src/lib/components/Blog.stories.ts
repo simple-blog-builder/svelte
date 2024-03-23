@@ -26,4 +26,3 @@ export const Main: Story = {
 		// blog: true,
 	}
 };
-

@@ -11,6 +11,16 @@
 		"strict": true,
 		"module": "NodeNext",
 		"moduleResolution": "NodeNext",
-		"allowImportingTsExtensions": true
+		"allowImportingTsExtensions": true,
+		"paths": {
+			"$lib/*": ["src/lib/*"],
+			"$components/*": ["src/components/*"],
+			"$stores/*": ["src/stores/*"],
+			"$utils/*": ["src/utils/*"],
+			"$styles/*": ["src/styles/*"],
+			"$routes/*": ["src/routes/*"],
+			"$assets/*": ["src/assets/*"],
+			"@simple-blog-builder/core": ["@simple-blog-builder/core"]
+		}
 	}
 }

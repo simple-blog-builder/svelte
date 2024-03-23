@@ -85,5 +85,8 @@
 	},
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@simple-blog-builder/core": "^1.0.3"
+	}
 }

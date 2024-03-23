@@ -1,6 +1,7 @@
 <script lang="ts">
-	// import { SBBCoreBlogEntry } from '../../../../core/src/index.ts';
-	// export let blog: SBBCoreBlogEntry;
+	import { SBBCore, SBBCoreConfig} from '@simple-blog-builder/core';
+
+	const blog = SBBCore.createBlog();
 </script>
 
 <div></div>
